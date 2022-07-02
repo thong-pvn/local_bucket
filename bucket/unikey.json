@@ -1,0 +1,22 @@
+{
+    "version": "4.3RC5",
+    "description": "Vietnamese input method.",
+    "homepage": "https://www.unikey.org/",
+    "license": "Freeware",
+    "architecture": {
+      "32bit": {
+        "url": "https://www.unikey.org/assets/release/unikey43RC5-200929-win32.zip",
+        "hash": "1ef89f262d5b25d2279aee12c81e1767e6e58c367ac13756d391f2cb56022b22"
+      },
+      "64bit": {
+        "url": "https://www.unikey.org/assets/release/unikey43RC5-200929-win64.zip",
+        "hash": "dea84f2b2ae0f2f0d24740efa67e8ded0ac51657c13cb7e123078eb27032527b"
+      }
+    },
+    "shortcuts": [
+        [
+            "UniKeyNT.exe",
+            "UniKey"
+        ]
+    ]
+}
