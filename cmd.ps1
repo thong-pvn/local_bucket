@@ -63,13 +63,11 @@ scoop install onlyoffice-desktopeditors
 # Custom apps
 scoop install chrome-downloader
 scoop install unikey
+scoop install cloudflare-warp
 # scoop install garena
 # scoop install coccoc
 
-# Need to test again
-# cloudflare-warp
-scoop bucket add StarsbySea_ocean https://github.com/StarsbySea/ocean
-scoop install cloudflare-warp
+
 # BlueStacks
 scoop bucket add tomcdj71_scoop-essential-apps https://github.com/tomcdj71/scoop-essential-apps
 scoop install bluestacks5
@@ -153,3 +151,22 @@ code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension wholroyd.jinja
 code --install-extension wmaurer.change-case
+
+# Extension
+scoop install hex-editor-neo
+scoop install curl
+scoop install beekeeper-studio
+scoop install clink
+scoop install cloc
+scoop install imagemagick
+scoop install oh-my-posh
+scoop install opennetmeter
+scoop install rufus
+scoop install flutter
+scoop install grepwin
+scoop install powertoys-np
+scoop install curl
+scoop install postman
+scoop install winget
+scoop install vim
+scoop install translucenttb
