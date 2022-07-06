@@ -59,6 +59,49 @@ scoop install googlechrome
 scoop install flutter
 scoop install DockerCompletion
 scoop install onlyoffice-desktopeditors
+scoop install hex-editor-neo
+scoop install curl
+scoop install beekeeper-studio
+scoop install cloc
+scoop install imagemagick
+scoop install opennetmeter
+scoop install flutter
+scoop install grepwin
+scoop install postman
+scoop install vim
+scoop install translucenttb
+scoop install aria2
+scoop install coreutils
+scoop install yarn
+scoop install concfg pshazz # console theme
+concfg import solarized small
+scoop install zoxide
+scoop install editorconfig
+scoop install which
+scoop install SourceCodePro-NF-Mono
+scoop install SourceCodePro-NF
+scoop install RobotoMono-NF-Mono
+scoop install RobotoMono-NF
+scoop install JetBrainsMono-NF-Mono
+scoop install JetBrainsMono-NF
+scoop install FiraCode-NF-Mono
+scoop install Hack-NF-Mono
+scoop install Hack-NF
+scoop install roundedtb
+scoop install taskbarx
+scoop install nomino
+scoop install FiraMono-NF
+scoop install FiraCode-NF
+scoop install switchhosts
+scoop install networkmanager
+scoop install flow-launcher
+scoop install wget
+scoop install qrcp
+scoop install clink-completions
+scoop install fd
+scoop install FiraCode
+scoop install vcpkg
+scoop install plex-server
 
 # Custom apps
 scoop install chrome-downloader
@@ -67,37 +110,17 @@ scoop install cloudflare-warp
 # scoop install garena
 # scoop install coccoc
 
-
-# BlueStacks
-scoop bucket add tomcdj71_scoop-essential-apps https://github.com/tomcdj71/scoop-essential-apps
-scoop install bluestacks5
-# DockerDesktop
-shovel bucket add 'ash258.ash258' 'https://github.com/Ash258/Shovel-Ash258.git'
-scoop install ash258.ash258/docker
-# EverythingToolbar
-scoop bucket add ba230t_scoop-bucket https://github.com/ba230t/scoop-bucket
-scoop install everythingtoolbar
-# ExplorerPatcher
-scoop bucket add ACooper81_scoop-apps https://github.com/ACooper81/scoop-apps
-scoop install ExplorerPatcher-Install
-# Grammarly
-shovel bucket add 'ash258.ash258' 'https://github.com/Ash258/Shovel-Ash258.git'
-scoop install ash258.ash258/Grammarly
-# HashTools
-scoop bucket add BluYous_ScoopBucket https://github.com/BluYous/ScoopBucket
-scoop install HashTools
-# LivelyWallpaper
-scoop bucket add Weidows-projects_scoop-3rd https://github.com/Weidows-projects/scoop-3rd
-scoop install Lively-Wallpaper
-# GeForceExperience
-scoop bucket add gregwen_grewen-scoop https://github.com/gregwen/grewen-scoop
-scoop install nvidia-geforce-experience-np
-# PathCopyCopy
-scoop bucket add ImMakSpy_scoop-bucket-iammakspy https://github.com/ImMakSpy/scoop-bucket-iammakspy
-scoop install pathcopycopy-ims
 # Install winget app
+scoop install winget
+winget install --id=Docker.DockerDesktop  -e
+winget install --id=stnkl.EverythingToolbar  -e
+winget install --id=valinet.ExplorerPatcher  -e
+winget install --id=Grammarly.ForWindows  -e
+winget install --id=BinaryFortress.HashTools  -e
+winget install --id=rocksdanister.LivelyWallpaper  -e
+winget install --id=Nvidia.GeForceExperience  -e
+winget install --id=CLechasseur.PathCopyCopy  -e
 winget install --id=CrystalRich.InternetOff -e
-
 
 # Install vscode extension
 code --install-extension aaron-bond.better-comments
@@ -151,103 +174,3 @@ code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension wholroyd.jinja
 code --install-extension wmaurer.change-case
-
-# Extension
-scoop install hex-editor-neo
-scoop install curl
-scoop install beekeeper-studio
-scoop install clink
-scoop install cloc
-scoop install imagemagick
-scoop install oh-my-posh
-scoop install opennetmeter
-scoop install rufus
-scoop install flutter
-scoop install grepwin
-scoop install powertoys-np
-scoop install curl
-scoop install postman
-scoop install winget
-scoop install vim
-scoop install translucenttb
-
-
-######
-scoop install aria2
-# utils
-scoop install 7zip curl sudo git openssh coreutils grep sed less
-
-# programming languages
-scoop install python ruby go nodejs
-scoop install yarn
-
-# console theme
-scoop install concfg pshazz
-concfg import solarized small
-
-# vim
-scoop install vim
-
-# sudo
-scoop install sudo
-
-scoop bucket add main
-scoop install zoxide
-
-scoop install editorconfig
-
-scoop bucket add nerd-fonts
-scoop install which
-scoop install SourceCodePro-NF-Mono
-scoop install SourceCodePro-NF-Mono
-scoop install SourceCodePro-NF
-scoop install RobotoMono-NF-Mono
-scoop install RobotoMono-NF
-scoop install JetBrainsMono-NF-Mono
-scoop install JetBrainsMono-NF
-scoop install FiraCode-NF-Mono
-scoop install Hack-NF-Mono
-scoop install Hack-NF
-scoop install quicklook
-scoop install vcredist2019
-scoop install JetBrains-Mono
-scoop install steam
-scoop install roundedtb
-scoop install taskbarx
-scoop install nomino
-scoop install FiraMono-NF
-scoop install FiraCode-NF
-scoop bucket add extras
-scoop install switchhosts
-scoop install networkmanager
-scoop install qtranslate
-scoop install flow-launcher
-scoop install libgen-desktop
-scoop install wget
-scoop install qrcp
-scoop install rainmeter
-scoop install coretemp
-scoop install gsudo
-scoop install vlc
-scoop install winmerge
-scoop install advanced-ip-scanner
-scoop install clink-completions
-scoop install onlyoffice-desktopeditors
-scoop install cmake
-scoop install fd
-scoop install go
-scoop install FiraCode
-scoop install windows-terminal
-scoop install vscode
-scoop install adb
-scoop install notion
-scoop install vcpkg
-scoop install vcredist-aio
-scoop install megasync
-scoop install android-sdk
-scoop install postman
-scoop install flutter
-scoop install rufus
-scoop install plex-server
-scoop install oh-my-posh
-scoop install brave
