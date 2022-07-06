@@ -170,3 +170,84 @@ scoop install postman
 scoop install winget
 scoop install vim
 scoop install translucenttb
+
+
+######
+scoop install aria2
+# utils
+scoop install 7zip curl sudo git openssh coreutils grep sed less
+
+# programming languages
+scoop install python ruby go nodejs
+scoop install yarn
+
+# console theme
+scoop install concfg pshazz
+concfg import solarized small
+
+# vim
+scoop install vim
+
+# sudo
+scoop install sudo
+
+scoop bucket add main
+scoop install zoxide
+
+scoop install editorconfig
+
+scoop bucket add nerd-fonts
+scoop install which
+scoop install SourceCodePro-NF-Mono
+scoop install SourceCodePro-NF-Mono
+scoop install SourceCodePro-NF
+scoop install RobotoMono-NF-Mono
+scoop install RobotoMono-NF
+scoop install JetBrainsMono-NF-Mono
+scoop install JetBrainsMono-NF
+scoop install FiraCode-NF-Mono
+scoop install Hack-NF-Mono
+scoop install Hack-NF
+scoop install quicklook
+scoop install vcredist2019
+scoop install JetBrains-Mono
+scoop install steam
+scoop install roundedtb
+scoop install taskbarx
+scoop install nomino
+scoop install FiraMono-NF
+scoop install FiraCode-NF
+scoop bucket add extras
+scoop install switchhosts
+scoop install networkmanager
+scoop install qtranslate
+scoop install flow-launcher
+scoop install libgen-desktop
+scoop install wget
+scoop install qrcp
+scoop install rainmeter
+scoop install coretemp
+scoop install gsudo
+scoop install vlc
+scoop install winmerge
+scoop install advanced-ip-scanner
+scoop install clink-completions
+scoop install onlyoffice-desktopeditors
+scoop install cmake
+scoop install fd
+scoop install go
+scoop install FiraCode
+scoop install windows-terminal
+scoop install vscode
+scoop install adb
+scoop install notion
+scoop install vcpkg
+scoop install vcredist-aio
+scoop install megasync
+scoop install android-sdk
+scoop install postman
+scoop install flutter
+scoop install rufus
+scoop install plex-server
+scoop install oh-my-posh
+scoop install brave
